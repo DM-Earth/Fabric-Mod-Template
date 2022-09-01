@@ -3,23 +3,22 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "modid",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "DM Earth"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/DM-Earth"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.dm.earth.modid.ModId"
     ]
   },
   "mixins": [
@@ -33,6 +32,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "quilt_loader": "*"
   }
 }
